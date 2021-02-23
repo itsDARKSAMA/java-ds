@@ -7,10 +7,12 @@ public class main {
         Node gaza = new Node("Gaza");
         Node khan = new Node("Khan Younes");
         Node rafah = new Node("Rafah");
+        Node wosta = new Node("Wosta");
         cityList.insertHead(gaza);
         cityList.insertLast(khan);
         cityList.insertLast(rafah);
-        cityList.removeHead();
+        cityList.insertAfter(gaza,wosta);
+//        cityList.removeHead();
         cityList.displayList();
         System.out.println("is Empty ? :"+cityList.isEmpty());
     }

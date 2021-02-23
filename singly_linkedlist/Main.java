@@ -1,9 +1,9 @@
 package singly_linkedlist;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
-        linkedList cityList = new linkedList();
+        LinkedList cityList = new LinkedList();
         Node gaza = new Node("Gaza");
         Node khan = new Node("Khan Younes");
         Node rafah = new Node("Rafah");

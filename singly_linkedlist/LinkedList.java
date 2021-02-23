@@ -1,8 +1,8 @@
 package singly_linkedlist;
 
-public class linkedList {
+public class LinkedList {
 
-    Node head, last = null;
+    private Node head, last = null;
     private int size = 0;
 
     // getters and setters
